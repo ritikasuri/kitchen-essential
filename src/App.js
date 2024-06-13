@@ -43,9 +43,9 @@ function App() {
     // Applying selected filter
     if (selected) {
       filteredProducts = filteredProducts.filter(
-        ({ category, color, company, newPrice, title }) =>
+        ({ category, size, company, newPrice, title }) =>
           category === selected ||
-          color === selected ||
+          size === selected ||
           company === selected ||
           newPrice === selected ||
           title === selected
